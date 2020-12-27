@@ -1,6 +1,6 @@
 # Branch_predictor
 
-Simulate a branch predictor with a 2-bit saturating counter. Our design consists of a 2<sup>m 2-bit saturating counter indexed using LSBs of each branch instruction. Each predictor starts in the 11 (predict taken with high confidence) state and is updated as per the finite state machine. The value of m is specified in the config file i.e., config.txt.
+Simulate a branch predictor with a 2-bit saturating counter. Our design consists of a 2<sup>m</sup> 2-bit saturating counter indexed using LSBs of each branch instruction. Each predictor starts in the 11 (predict taken with high confidence) state and is updated as per the finite state machine. The value of m is specified in the config file i.e., config.txt.
 
 ## Config File
 The config file config.txt contains a single line with the value of m. A sample file for m=12 is provided. The largest value of m is 32 (for 32 bit PCs), but we will not input an m larger than 20.
